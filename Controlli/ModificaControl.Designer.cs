@@ -19,7 +19,6 @@
             }
             base.Dispose(disposing);
         }
-
         #region Codice generato da Progettazione componenti
 
         /// <summary> 
@@ -28,70 +27,71 @@
         /// </summary>
         private void InitializeComponent()
         {
-            rjButton8 = new CustomControls.RJControls.RJButton();
-            rjTextBox9 = new CustomControls.RJControls.RJTextBox();
+            salvaButton = new CustomControls.RJControls.RJButton();
+            noteTextBox = new CustomControls.RJControls.RJTextBox();
             label12 = new Label();
-            rjTextBox10 = new CustomControls.RJControls.RJTextBox();
+            capTextBox = new CustomControls.RJControls.RJTextBox();
             label13 = new Label();
-            rjTextBox7 = new CustomControls.RJControls.RJTextBox();
+            cittaTextBox = new CustomControls.RJControls.RJTextBox();
             label10 = new Label();
-            rjTextBox8 = new CustomControls.RJControls.RJTextBox();
+            indirizzoTextBox = new CustomControls.RJControls.RJTextBox();
             label11 = new Label();
-            rjTextBox5 = new CustomControls.RJControls.RJTextBox();
+            datanascitaTextBox = new CustomControls.RJControls.RJTextBox();
             label8 = new Label();
-            rjTextBox6 = new CustomControls.RJControls.RJTextBox();
+            emailTextBox = new CustomControls.RJControls.RJTextBox();
             label9 = new Label();
-            rjTextBox3 = new CustomControls.RJControls.RJTextBox();
+            cellulareTextBox = new CustomControls.RJControls.RJTextBox();
             label6 = new Label();
-            rjTextBox4 = new CustomControls.RJControls.RJTextBox();
+            telefonoTextBox = new CustomControls.RJControls.RJTextBox();
             label7 = new Label();
-            rjTextBox2 = new CustomControls.RJControls.RJTextBox();
+            cognomeTextBox = new CustomControls.RJControls.RJTextBox();
             label5 = new Label();
-            rjTextBox1 = new CustomControls.RJControls.RJTextBox();
+            nomeTextBox = new CustomControls.RJControls.RJTextBox();
             label4 = new Label();
             label3 = new Label();
             SuspendLayout();
             // 
-            // rjButton8
+            // salvaButton
             // 
-            rjButton8.BackColor = Color.FromArgb(123, 237, 159);
-            rjButton8.BackgroundColor = Color.FromArgb(123, 237, 159);
-            rjButton8.BorderColor = Color.FromArgb(46, 213, 115);
-            rjButton8.BorderRadius = 10;
-            rjButton8.BorderSize = 2;
-            rjButton8.FlatAppearance.BorderSize = 0;
-            rjButton8.FlatStyle = FlatStyle.Flat;
-            rjButton8.Font = new Font("Segoe UI Semibold", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            rjButton8.ForeColor = SystemColors.ControlText;
-            rjButton8.Location = new Point(218, 368);
-            rjButton8.Name = "rjButton8";
-            rjButton8.Size = new Size(207, 107);
-            rjButton8.TabIndex = 29;
-            rjButton8.Text = "Salva";
-            rjButton8.TextColor = SystemColors.ControlText;
-            rjButton8.UseVisualStyleBackColor = false;
+            salvaButton.BackColor = Color.FromArgb(123, 237, 159);
+            salvaButton.BackgroundColor = Color.FromArgb(123, 237, 159);
+            salvaButton.BorderColor = Color.FromArgb(46, 213, 115);
+            salvaButton.BorderRadius = 10;
+            salvaButton.BorderSize = 2;
+            salvaButton.FlatAppearance.BorderSize = 0;
+            salvaButton.FlatStyle = FlatStyle.Flat;
+            salvaButton.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            salvaButton.ForeColor = SystemColors.ControlText;
+            salvaButton.Location = new Point(218, 368);
+            salvaButton.Name = "salvaButton";
+            salvaButton.Size = new Size(207, 107);
+            salvaButton.TabIndex = 29;
+            salvaButton.Text = "Salva";
+            salvaButton.TextColor = SystemColors.ControlText;
+            salvaButton.UseVisualStyleBackColor = false;
+            salvaButton.Click += salvaButton_Click;
             // 
-            // rjTextBox9
+            // noteTextBox
             // 
-            rjTextBox9.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox9.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox9.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox9.BorderRadius = 10;
-            rjTextBox9.BorderSize = 2;
-            rjTextBox9.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox9.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox9.Location = new Point(3, 327);
-            rjTextBox9.Margin = new Padding(4);
-            rjTextBox9.Multiline = true;
-            rjTextBox9.Name = "rjTextBox9";
-            rjTextBox9.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox9.PasswordChar = false;
-            rjTextBox9.PlaceholderColor = Color.DarkGray;
-            rjTextBox9.PlaceholderText = "...";
-            rjTextBox9.Size = new Size(207, 148);
-            rjTextBox9.TabIndex = 51;
-            rjTextBox9.Texts = "";
-            rjTextBox9.UnderlinedStyle = false;
+            noteTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            noteTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            noteTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            noteTextBox.BorderRadius = 10;
+            noteTextBox.BorderSize = 2;
+            noteTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            noteTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            noteTextBox.Location = new Point(3, 327);
+            noteTextBox.Margin = new Padding(4);
+            noteTextBox.Multiline = true;
+            noteTextBox.Name = "noteTextBox";
+            noteTextBox.Padding = new Padding(10, 7, 10, 7);
+            noteTextBox.PasswordChar = false;
+            noteTextBox.PlaceholderColor = Color.DarkGray;
+            noteTextBox.PlaceholderText = "...";
+            noteTextBox.Size = new Size(207, 148);
+            noteTextBox.TabIndex = 51;
+            noteTextBox.Texts = "";
+            noteTextBox.UnderlinedStyle = false;
             // 
             // label12
             // 
@@ -104,27 +104,27 @@
             label12.TabIndex = 50;
             label12.Text = "Note";
             // 
-            // rjTextBox10
+            // capTextBox
             // 
-            rjTextBox10.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox10.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox10.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox10.BorderRadius = 10;
-            rjTextBox10.BorderSize = 2;
-            rjTextBox10.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox10.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox10.Location = new Point(218, 327);
-            rjTextBox10.Margin = new Padding(4);
-            rjTextBox10.Multiline = false;
-            rjTextBox10.Name = "rjTextBox10";
-            rjTextBox10.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox10.PasswordChar = false;
-            rjTextBox10.PlaceholderColor = Color.DarkGray;
-            rjTextBox10.PlaceholderText = "00118";
-            rjTextBox10.Size = new Size(207, 32);
-            rjTextBox10.TabIndex = 49;
-            rjTextBox10.Texts = "";
-            rjTextBox10.UnderlinedStyle = false;
+            capTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            capTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            capTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            capTextBox.BorderRadius = 10;
+            capTextBox.BorderSize = 2;
+            capTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            capTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            capTextBox.Location = new Point(218, 327);
+            capTextBox.Margin = new Padding(4);
+            capTextBox.Multiline = false;
+            capTextBox.Name = "capTextBox";
+            capTextBox.Padding = new Padding(10, 7, 10, 7);
+            capTextBox.PasswordChar = false;
+            capTextBox.PlaceholderColor = Color.DarkGray;
+            capTextBox.PlaceholderText = "00118";
+            capTextBox.Size = new Size(207, 32);
+            capTextBox.TabIndex = 49;
+            capTextBox.Texts = "";
+            capTextBox.UnderlinedStyle = false;
             // 
             // label13
             // 
@@ -137,27 +137,27 @@
             label13.TabIndex = 48;
             label13.Text = "CAP";
             // 
-            // rjTextBox7
+            // cittaTextBox
             // 
-            rjTextBox7.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox7.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox7.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox7.BorderRadius = 10;
-            rjTextBox7.BorderSize = 2;
-            rjTextBox7.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox7.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox7.Location = new Point(218, 262);
-            rjTextBox7.Margin = new Padding(4);
-            rjTextBox7.Multiline = false;
-            rjTextBox7.Name = "rjTextBox7";
-            rjTextBox7.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox7.PasswordChar = false;
-            rjTextBox7.PlaceholderColor = Color.DarkGray;
-            rjTextBox7.PlaceholderText = "Roma";
-            rjTextBox7.Size = new Size(207, 32);
-            rjTextBox7.TabIndex = 47;
-            rjTextBox7.Texts = "";
-            rjTextBox7.UnderlinedStyle = false;
+            cittaTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            cittaTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            cittaTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            cittaTextBox.BorderRadius = 10;
+            cittaTextBox.BorderSize = 2;
+            cittaTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            cittaTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            cittaTextBox.Location = new Point(218, 262);
+            cittaTextBox.Margin = new Padding(4);
+            cittaTextBox.Multiline = false;
+            cittaTextBox.Name = "cittaTextBox";
+            cittaTextBox.Padding = new Padding(10, 7, 10, 7);
+            cittaTextBox.PasswordChar = false;
+            cittaTextBox.PlaceholderColor = Color.DarkGray;
+            cittaTextBox.PlaceholderText = "Roma";
+            cittaTextBox.Size = new Size(207, 32);
+            cittaTextBox.TabIndex = 47;
+            cittaTextBox.Texts = "";
+            cittaTextBox.UnderlinedStyle = false;
             // 
             // label10
             // 
@@ -170,27 +170,27 @@
             label10.TabIndex = 46;
             label10.Text = "Città";
             // 
-            // rjTextBox8
+            // indirizzoTextBox
             // 
-            rjTextBox8.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox8.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox8.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox8.BorderRadius = 10;
-            rjTextBox8.BorderSize = 2;
-            rjTextBox8.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox8.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox8.Location = new Point(3, 262);
-            rjTextBox8.Margin = new Padding(4);
-            rjTextBox8.Multiline = false;
-            rjTextBox8.Name = "rjTextBox8";
-            rjTextBox8.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox8.PasswordChar = false;
-            rjTextBox8.PlaceholderColor = Color.DarkGray;
-            rjTextBox8.PlaceholderText = "Via Bianchi 1";
-            rjTextBox8.Size = new Size(207, 32);
-            rjTextBox8.TabIndex = 45;
-            rjTextBox8.Texts = "";
-            rjTextBox8.UnderlinedStyle = false;
+            indirizzoTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            indirizzoTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            indirizzoTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            indirizzoTextBox.BorderRadius = 10;
+            indirizzoTextBox.BorderSize = 2;
+            indirizzoTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            indirizzoTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            indirizzoTextBox.Location = new Point(3, 262);
+            indirizzoTextBox.Margin = new Padding(4);
+            indirizzoTextBox.Multiline = false;
+            indirizzoTextBox.Name = "indirizzoTextBox";
+            indirizzoTextBox.Padding = new Padding(10, 7, 10, 7);
+            indirizzoTextBox.PasswordChar = false;
+            indirizzoTextBox.PlaceholderColor = Color.DarkGray;
+            indirizzoTextBox.PlaceholderText = "Via Bianchi 1";
+            indirizzoTextBox.Size = new Size(207, 32);
+            indirizzoTextBox.TabIndex = 45;
+            indirizzoTextBox.Texts = "";
+            indirizzoTextBox.UnderlinedStyle = false;
             // 
             // label11
             // 
@@ -203,27 +203,27 @@
             label11.TabIndex = 44;
             label11.Text = "Indirizzo";
             // 
-            // rjTextBox5
+            // datanascitaTextBox
             // 
-            rjTextBox5.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox5.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox5.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox5.BorderRadius = 10;
-            rjTextBox5.BorderSize = 2;
-            rjTextBox5.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox5.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox5.Location = new Point(218, 195);
-            rjTextBox5.Margin = new Padding(4);
-            rjTextBox5.Multiline = false;
-            rjTextBox5.Name = "rjTextBox5";
-            rjTextBox5.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox5.PasswordChar = false;
-            rjTextBox5.PlaceholderColor = Color.DarkGray;
-            rjTextBox5.PlaceholderText = "GG/MM/AAAA";
-            rjTextBox5.Size = new Size(207, 32);
-            rjTextBox5.TabIndex = 43;
-            rjTextBox5.Texts = "";
-            rjTextBox5.UnderlinedStyle = false;
+            datanascitaTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            datanascitaTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            datanascitaTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            datanascitaTextBox.BorderRadius = 10;
+            datanascitaTextBox.BorderSize = 2;
+            datanascitaTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            datanascitaTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            datanascitaTextBox.Location = new Point(218, 195);
+            datanascitaTextBox.Margin = new Padding(4);
+            datanascitaTextBox.Multiline = false;
+            datanascitaTextBox.Name = "datanascitaTextBox";
+            datanascitaTextBox.Padding = new Padding(10, 7, 10, 7);
+            datanascitaTextBox.PasswordChar = false;
+            datanascitaTextBox.PlaceholderColor = Color.DarkGray;
+            datanascitaTextBox.PlaceholderText = "GG/MM/AAAA";
+            datanascitaTextBox.Size = new Size(207, 32);
+            datanascitaTextBox.TabIndex = 43;
+            datanascitaTextBox.Texts = "";
+            datanascitaTextBox.UnderlinedStyle = false;
             // 
             // label8
             // 
@@ -236,27 +236,27 @@
             label8.TabIndex = 42;
             label8.Text = "Data di nascita";
             // 
-            // rjTextBox6
+            // emailTextBox
             // 
-            rjTextBox6.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox6.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox6.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox6.BorderRadius = 10;
-            rjTextBox6.BorderSize = 2;
-            rjTextBox6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox6.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox6.Location = new Point(3, 195);
-            rjTextBox6.Margin = new Padding(4);
-            rjTextBox6.Multiline = false;
-            rjTextBox6.Name = "rjTextBox6";
-            rjTextBox6.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox6.PasswordChar = false;
-            rjTextBox6.PlaceholderColor = Color.DarkGray;
-            rjTextBox6.PlaceholderText = "email@dominio.it";
-            rjTextBox6.Size = new Size(207, 32);
-            rjTextBox6.TabIndex = 41;
-            rjTextBox6.Texts = "";
-            rjTextBox6.UnderlinedStyle = false;
+            emailTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            emailTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            emailTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            emailTextBox.BorderRadius = 10;
+            emailTextBox.BorderSize = 2;
+            emailTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            emailTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            emailTextBox.Location = new Point(3, 195);
+            emailTextBox.Margin = new Padding(4);
+            emailTextBox.Multiline = false;
+            emailTextBox.Name = "emailTextBox";
+            emailTextBox.Padding = new Padding(10, 7, 10, 7);
+            emailTextBox.PasswordChar = false;
+            emailTextBox.PlaceholderColor = Color.DarkGray;
+            emailTextBox.PlaceholderText = "email@dominio.it";
+            emailTextBox.Size = new Size(207, 32);
+            emailTextBox.TabIndex = 41;
+            emailTextBox.Texts = "";
+            emailTextBox.UnderlinedStyle = false;
             // 
             // label9
             // 
@@ -269,27 +269,27 @@
             label9.TabIndex = 40;
             label9.Text = "Email";
             // 
-            // rjTextBox3
+            // cellulareTextBox
             // 
-            rjTextBox3.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox3.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox3.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox3.BorderRadius = 10;
-            rjTextBox3.BorderSize = 2;
-            rjTextBox3.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox3.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox3.Location = new Point(218, 127);
-            rjTextBox3.Margin = new Padding(4);
-            rjTextBox3.Multiline = false;
-            rjTextBox3.Name = "rjTextBox3";
-            rjTextBox3.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox3.PasswordChar = false;
-            rjTextBox3.PlaceholderColor = Color.DarkGray;
-            rjTextBox3.PlaceholderText = "XXX XXX XXXX";
-            rjTextBox3.Size = new Size(207, 32);
-            rjTextBox3.TabIndex = 39;
-            rjTextBox3.Texts = "";
-            rjTextBox3.UnderlinedStyle = false;
+            cellulareTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            cellulareTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            cellulareTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            cellulareTextBox.BorderRadius = 10;
+            cellulareTextBox.BorderSize = 2;
+            cellulareTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            cellulareTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            cellulareTextBox.Location = new Point(218, 127);
+            cellulareTextBox.Margin = new Padding(4);
+            cellulareTextBox.Multiline = false;
+            cellulareTextBox.Name = "cellulareTextBox";
+            cellulareTextBox.Padding = new Padding(10, 7, 10, 7);
+            cellulareTextBox.PasswordChar = false;
+            cellulareTextBox.PlaceholderColor = Color.DarkGray;
+            cellulareTextBox.PlaceholderText = "XXX XXX XXXX";
+            cellulareTextBox.Size = new Size(207, 32);
+            cellulareTextBox.TabIndex = 39;
+            cellulareTextBox.Texts = "";
+            cellulareTextBox.UnderlinedStyle = false;
             // 
             // label6
             // 
@@ -302,27 +302,27 @@
             label6.TabIndex = 38;
             label6.Text = "Cellulare";
             // 
-            // rjTextBox4
+            // telefonoTextBox
             // 
-            rjTextBox4.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox4.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox4.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox4.BorderRadius = 10;
-            rjTextBox4.BorderSize = 2;
-            rjTextBox4.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox4.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox4.Location = new Point(3, 127);
-            rjTextBox4.Margin = new Padding(4);
-            rjTextBox4.Multiline = false;
-            rjTextBox4.Name = "rjTextBox4";
-            rjTextBox4.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox4.PasswordChar = false;
-            rjTextBox4.PlaceholderColor = Color.DarkGray;
-            rjTextBox4.PlaceholderText = "XXX XXX XXXX";
-            rjTextBox4.Size = new Size(207, 32);
-            rjTextBox4.TabIndex = 37;
-            rjTextBox4.Texts = "";
-            rjTextBox4.UnderlinedStyle = false;
+            telefonoTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            telefonoTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            telefonoTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            telefonoTextBox.BorderRadius = 10;
+            telefonoTextBox.BorderSize = 2;
+            telefonoTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            telefonoTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            telefonoTextBox.Location = new Point(3, 127);
+            telefonoTextBox.Margin = new Padding(4);
+            telefonoTextBox.Multiline = false;
+            telefonoTextBox.Name = "telefonoTextBox";
+            telefonoTextBox.Padding = new Padding(10, 7, 10, 7);
+            telefonoTextBox.PasswordChar = false;
+            telefonoTextBox.PlaceholderColor = Color.DarkGray;
+            telefonoTextBox.PlaceholderText = "XXX XXX XXXX";
+            telefonoTextBox.Size = new Size(207, 32);
+            telefonoTextBox.TabIndex = 37;
+            telefonoTextBox.Texts = "";
+            telefonoTextBox.UnderlinedStyle = false;
             // 
             // label7
             // 
@@ -335,27 +335,27 @@
             label7.TabIndex = 36;
             label7.Text = "Telefono";
             // 
-            // rjTextBox2
+            // cognomeTextBox
             // 
-            rjTextBox2.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox2.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox2.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox2.BorderRadius = 10;
-            rjTextBox2.BorderSize = 2;
-            rjTextBox2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox2.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox2.Location = new Point(218, 61);
-            rjTextBox2.Margin = new Padding(4);
-            rjTextBox2.Multiline = false;
-            rjTextBox2.Name = "rjTextBox2";
-            rjTextBox2.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox2.PasswordChar = false;
-            rjTextBox2.PlaceholderColor = Color.DarkGray;
-            rjTextBox2.PlaceholderText = "Rossi";
-            rjTextBox2.Size = new Size(207, 32);
-            rjTextBox2.TabIndex = 35;
-            rjTextBox2.Texts = "";
-            rjTextBox2.UnderlinedStyle = false;
+            cognomeTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            cognomeTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            cognomeTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            cognomeTextBox.BorderRadius = 10;
+            cognomeTextBox.BorderSize = 2;
+            cognomeTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            cognomeTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            cognomeTextBox.Location = new Point(218, 61);
+            cognomeTextBox.Margin = new Padding(4);
+            cognomeTextBox.Multiline = false;
+            cognomeTextBox.Name = "cognomeTextBox";
+            cognomeTextBox.Padding = new Padding(10, 7, 10, 7);
+            cognomeTextBox.PasswordChar = false;
+            cognomeTextBox.PlaceholderColor = Color.DarkGray;
+            cognomeTextBox.PlaceholderText = "Rossi";
+            cognomeTextBox.Size = new Size(207, 32);
+            cognomeTextBox.TabIndex = 35;
+            cognomeTextBox.Texts = "";
+            cognomeTextBox.UnderlinedStyle = false;
             // 
             // label5
             // 
@@ -368,27 +368,27 @@
             label5.TabIndex = 34;
             label5.Text = "Cognome";
             // 
-            // rjTextBox1
+            // nomeTextBox
             // 
-            rjTextBox1.BackColor = Color.FromArgb(218, 235, 242);
-            rjTextBox1.BorderColor = Color.FromArgb(170, 210, 227);
-            rjTextBox1.BorderFocusColor = Color.FromArgb(25, 167, 206);
-            rjTextBox1.BorderRadius = 10;
-            rjTextBox1.BorderSize = 2;
-            rjTextBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            rjTextBox1.ForeColor = Color.FromArgb(64, 64, 64);
-            rjTextBox1.Location = new Point(3, 61);
-            rjTextBox1.Margin = new Padding(4);
-            rjTextBox1.Multiline = false;
-            rjTextBox1.Name = "rjTextBox1";
-            rjTextBox1.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox1.PasswordChar = false;
-            rjTextBox1.PlaceholderColor = Color.DarkGray;
-            rjTextBox1.PlaceholderText = "Mario";
-            rjTextBox1.Size = new Size(207, 32);
-            rjTextBox1.TabIndex = 33;
-            rjTextBox1.Texts = "";
-            rjTextBox1.UnderlinedStyle = false;
+            nomeTextBox.BackColor = Color.FromArgb(218, 235, 242);
+            nomeTextBox.BorderColor = Color.FromArgb(170, 210, 227);
+            nomeTextBox.BorderFocusColor = Color.FromArgb(25, 167, 206);
+            nomeTextBox.BorderRadius = 10;
+            nomeTextBox.BorderSize = 2;
+            nomeTextBox.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            nomeTextBox.ForeColor = Color.FromArgb(64, 64, 64);
+            nomeTextBox.Location = new Point(3, 61);
+            nomeTextBox.Margin = new Padding(4);
+            nomeTextBox.Multiline = false;
+            nomeTextBox.Name = "nomeTextBox";
+            nomeTextBox.Padding = new Padding(10, 7, 10, 7);
+            nomeTextBox.PasswordChar = false;
+            nomeTextBox.PlaceholderColor = Color.DarkGray;
+            nomeTextBox.PlaceholderText = "Mario";
+            nomeTextBox.Size = new Size(207, 32);
+            nomeTextBox.TabIndex = 33;
+            nomeTextBox.Texts = "";
+            nomeTextBox.UnderlinedStyle = false;
             // 
             // label4
             // 
@@ -417,56 +417,58 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(230, 225, 225);
-            Controls.Add(rjButton8);
-            Controls.Add(rjTextBox9);
+            Controls.Add(salvaButton);
+            Controls.Add(noteTextBox);
             Controls.Add(label12);
-            Controls.Add(rjTextBox10);
+            Controls.Add(capTextBox);
             Controls.Add(label13);
-            Controls.Add(rjTextBox7);
+            Controls.Add(cittaTextBox);
             Controls.Add(label10);
-            Controls.Add(rjTextBox8);
+            Controls.Add(indirizzoTextBox);
             Controls.Add(label11);
-            Controls.Add(rjTextBox5);
+            Controls.Add(datanascitaTextBox);
             Controls.Add(label8);
-            Controls.Add(rjTextBox6);
+            Controls.Add(emailTextBox);
             Controls.Add(label9);
-            Controls.Add(rjTextBox3);
+            Controls.Add(cellulareTextBox);
             Controls.Add(label6);
-            Controls.Add(rjTextBox4);
+            Controls.Add(telefonoTextBox);
             Controls.Add(label7);
-            Controls.Add(rjTextBox2);
+            Controls.Add(cognomeTextBox);
             Controls.Add(label5);
-            Controls.Add(rjTextBox1);
+            Controls.Add(nomeTextBox);
             Controls.Add(label4);
             Controls.Add(label3);
             Name = "ModificaControl";
-            Size = new Size(429, 480);
+            Size = new Size(430, 479);
+            Load += ModificaControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private CustomControls.RJControls.RJButton rjButton8;
-        private CustomControls.RJControls.RJTextBox rjTextBox9;
+        private CustomControls.RJControls.RJButton salvaButton;
+        private CustomControls.RJControls.RJTextBox noteTextBox;
         private Label label12;
-        private CustomControls.RJControls.RJTextBox rjTextBox10;
+        private CustomControls.RJControls.RJTextBox capTextBox;
         private Label label13;
-        private CustomControls.RJControls.RJTextBox rjTextBox7;
+        private CustomControls.RJControls.RJTextBox cittaTextBox;
         private Label label10;
-        private CustomControls.RJControls.RJTextBox rjTextBox8;
+        private CustomControls.RJControls.RJTextBox indirizzoTextBox;
         private Label label11;
-        private CustomControls.RJControls.RJTextBox rjTextBox5;
+        private CustomControls.RJControls.RJTextBox datanascitaTextBox;
         private Label label8;
-        private CustomControls.RJControls.RJTextBox rjTextBox6;
+        private CustomControls.RJControls.RJTextBox emailTextBox;
         private Label label9;
-        private CustomControls.RJControls.RJTextBox rjTextBox3;
+        private CustomControls.RJControls.RJTextBox cellulareTextBox;
         private Label label6;
-        private CustomControls.RJControls.RJTextBox rjTextBox4;
+        private CustomControls.RJControls.RJTextBox telefonoTextBox;
         private Label label7;
-        private CustomControls.RJControls.RJTextBox rjTextBox2;
+        private CustomControls.RJControls.RJTextBox cognomeTextBox;
         private Label label5;
-        private CustomControls.RJControls.RJTextBox rjTextBox1;
+        private CustomControls.RJControls.RJTextBox nomeTextBox;
         private Label label4;
         private Label label3;
+
     }
 }

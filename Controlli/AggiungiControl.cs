@@ -1,13 +1,4 @@
 ﻿using Gestione_Libreria.Classi;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Gestione_Rubrica
 {
@@ -20,25 +11,15 @@ namespace Gestione_Rubrica
 
         private void salvaButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(nomeTextBox.Texts+
-                                         cognomeTextBox.Texts+
-                                         telefonoTextBox.Texts+
-                                         cellulareTextBox.Texts+
-                                         emailTextBox.Texts+
-                                         datanascitaTextBox.Texts+
-                                         indirizzoTextBox.Texts+
-                                         cittaTextBox.Texts+
-                                         capTextBox.Texts+
-                                         noteTextBox.Texts);
             Contatto contattonuovo = new(nomeTextBox.Texts,
                                          cognomeTextBox.Texts,
-                                         Convert.ToInt32(cellulareTextBox.Texts),
-                                         0,
+                                         telefonoTextBox.Texts,
+                                         cellulareTextBox.Texts,
                                          emailTextBox.Texts,
                                          datanascitaTextBox.Texts,
                                          indirizzoTextBox.Texts,
                                          cittaTextBox.Texts,
-                                         Convert.ToInt32(capTextBox.Texts),
+                                         capTextBox.Texts,
                                          noteTextBox.Texts);
             contattonuovo.ID=homeForm.rubrica.Count + 1;
             homeForm.rubrica.Add(contattonuovo);

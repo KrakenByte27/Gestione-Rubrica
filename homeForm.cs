@@ -29,17 +29,28 @@ namespace Gestione_Rubrica
 
         private void listacontatti_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Contatto? contattosel = rubrica.SingleOrDefault(p => p.ID == Convert.ToInt16(listacontatti.SelectedValue));
             actionPanel.Controls.Clear();
-            var controllo = new ModificaControl();
+            var controllo = new ModificaControl(contattosel);
             controllo.Location = new Point(5, 8);
             actionPanel.Controls.Add(controllo);
+
         }
 
         private void homeForm_Load(object sender, EventArgs e)
         {
-            listBox1.DataSource=rubrica;
-            listBox1.DisplayMember = "Nomecompleto";
-            listBox1.ValueMember = "ID";
+            listacontatti.DataSource = rubrica;
+            listacontatti.DisplayMember = "Nomecompleto";
+            listacontatti.ValueMember = "ID";
+        }
+
+        public void refreshList()
+        {
+            listacontatti.DataSource = null;
+            listacontatti.Items.Clear();
+            listacontatti.DataSource = rubrica;
+            listacontatti.DisplayMember = "Nomecompleto";
+            listacontatti.ValueMember = "ID";
         }
     }
 }

@@ -31,7 +31,7 @@
             label1 = new Label();
             roundedPanel1 = new CustomControls.RoundedPanel();
             grigliaButton = new CustomControls.RJControls.RJButton();
-            listBox1 = new ListBox();
+            listacontatti = new ListBox();
             rjButton5 = new CustomControls.RJControls.RJButton();
             aggiungiButton = new CustomControls.RJControls.RJButton();
             label2 = new Label();
@@ -51,10 +51,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(44, 62, 80);
-            label1.Location = new Point(26, 23);
-            label1.Margin = new Padding(6, 0, 6, 0);
+            label1.Location = new Point(14, 11);
             label1.Name = "label1";
-            label1.Size = new Size(411, 65);
+            label1.Size = new Size(209, 32);
             label1.TabIndex = 0;
             label1.Text = "Gestione Rubrica";
             // 
@@ -63,15 +62,14 @@
             roundedPanel1.BackColor = Color.FromArgb(230, 225, 225);
             roundedPanel1.BorderColor = Color.White;
             roundedPanel1.Controls.Add(grigliaButton);
-            roundedPanel1.Controls.Add(listBox1);
+            roundedPanel1.Controls.Add(listacontatti);
             roundedPanel1.Controls.Add(rjButton5);
             roundedPanel1.Controls.Add(aggiungiButton);
             roundedPanel1.Controls.Add(label2);
             roundedPanel1.Edge = 20;
-            roundedPanel1.Location = new Point(9, 143);
-            roundedPanel1.Margin = new Padding(6);
+            roundedPanel1.Location = new Point(5, 67);
             roundedPanel1.Name = "roundedPanel1";
-            roundedPanel1.Size = new Size(615, 1054);
+            roundedPanel1.Size = new Size(331, 494);
             roundedPanel1.TabIndex = 1;
             // 
             // grigliaButton
@@ -86,29 +84,27 @@
             grigliaButton.FlatStyle = FlatStyle.Flat;
             grigliaButton.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             grigliaButton.ForeColor = SystemColors.ControlText;
-            grigliaButton.Location = new Point(19, 930);
-            grigliaButton.Margin = new Padding(6);
+            grigliaButton.Location = new Point(10, 436);
             grigliaButton.Name = "grigliaButton";
-            grigliaButton.Size = new Size(184, 96);
+            grigliaButton.Size = new Size(99, 45);
             grigliaButton.TabIndex = 7;
             grigliaButton.Text = "Griglia";
             grigliaButton.TextColor = SystemColors.ControlText;
             grigliaButton.UseVisualStyleBackColor = false;
             grigliaButton.Click += grigliaButton_Click;
             // 
-            // listBox1
+            // listacontatti
             // 
-            listBox1.BackColor = Color.FromArgb(204, 200, 200);
-            listBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            listBox1.ForeColor = Color.FromArgb(44, 62, 80);
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 41;
-            listBox1.Location = new Point(19, 90);
-            listBox1.Margin = new Padding(6);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(574, 783);
-            listBox1.TabIndex = 6;
-            listBox1.SelectedIndexChanged += listacontatti_SelectedIndexChanged;
+            listacontatti.BackColor = Color.FromArgb(204, 200, 200);
+            listacontatti.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            listacontatti.ForeColor = Color.FromArgb(44, 62, 80);
+            listacontatti.FormattingEnabled = true;
+            listacontatti.ItemHeight = 20;
+            listacontatti.Location = new Point(10, 42);
+            listacontatti.Name = "listacontatti";
+            listacontatti.Size = new Size(311, 364);
+            listacontatti.TabIndex = 6;
+            listacontatti.SelectedIndexChanged += listacontatti_SelectedIndexChanged;
             // 
             // rjButton5
             // 
@@ -122,10 +118,9 @@
             rjButton5.FlatStyle = FlatStyle.Flat;
             rjButton5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             rjButton5.ForeColor = SystemColors.ControlText;
-            rjButton5.Location = new Point(215, 930);
-            rjButton5.Margin = new Padding(6);
+            rjButton5.Location = new Point(116, 436);
             rjButton5.Name = "rjButton5";
-            rjButton5.Size = new Size(184, 96);
+            rjButton5.Size = new Size(99, 45);
             rjButton5.TabIndex = 5;
             rjButton5.Text = "Rimuovi";
             rjButton5.TextColor = SystemColors.ControlText;
@@ -143,10 +138,9 @@
             aggiungiButton.FlatStyle = FlatStyle.Flat;
             aggiungiButton.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             aggiungiButton.ForeColor = SystemColors.ControlText;
-            aggiungiButton.Location = new Point(412, 930);
-            aggiungiButton.Margin = new Padding(6);
+            aggiungiButton.Location = new Point(222, 436);
             aggiungiButton.Name = "aggiungiButton";
-            aggiungiButton.Size = new Size(184, 96);
+            aggiungiButton.Size = new Size(99, 45);
             aggiungiButton.TabIndex = 4;
             aggiungiButton.Text = "Aggiungi";
             aggiungiButton.TextColor = SystemColors.ControlText;
@@ -158,10 +152,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(44, 62, 80);
-            label2.Location = new Point(19, 21);
-            label2.Margin = new Padding(6, 0, 6, 0);
+            label2.Location = new Point(10, 10);
             label2.Name = "label2";
-            label2.Size = new Size(252, 51);
+            label2.Size = new Size(126, 25);
             label2.TabIndex = 4;
             label2.Text = "Lista Contatti";
             // 
@@ -174,10 +167,9 @@
             roundedPanel2.Controls.Add(rjButton1);
             roundedPanel2.Controls.Add(label1);
             roundedPanel2.Edge = 20;
-            roundedPanel2.Location = new Point(9, 11);
-            roundedPanel2.Margin = new Padding(6);
+            roundedPanel2.Location = new Point(5, 5);
             roundedPanel2.Name = "roundedPanel2";
-            roundedPanel2.Size = new Size(1443, 122);
+            roundedPanel2.Size = new Size(777, 57);
             roundedPanel2.TabIndex = 2;
             // 
             // rjButton3
@@ -191,10 +183,9 @@
             rjButton3.FlatStyle = FlatStyle.Flat;
             rjButton3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             rjButton3.ForeColor = SystemColors.ControlText;
-            rjButton3.Location = new Point(1218, 17);
-            rjButton3.Margin = new Padding(6);
+            rjButton3.Location = new Point(656, 8);
             rjButton3.Name = "rjButton3";
-            rjButton3.Size = new Size(189, 85);
+            rjButton3.Size = new Size(102, 40);
             rjButton3.TabIndex = 3;
             rjButton3.Text = "Esci";
             rjButton3.TextColor = SystemColors.ControlText;
@@ -211,10 +202,9 @@
             rjButton2.FlatStyle = FlatStyle.Flat;
             rjButton2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             rjButton2.ForeColor = SystemColors.ControlText;
-            rjButton2.Location = new Point(1018, 17);
-            rjButton2.Margin = new Padding(6);
+            rjButton2.Location = new Point(548, 8);
             rjButton2.Name = "rjButton2";
-            rjButton2.Size = new Size(189, 85);
+            rjButton2.Size = new Size(102, 40);
             rjButton2.TabIndex = 2;
             rjButton2.Text = "Salva";
             rjButton2.TextColor = SystemColors.ControlText;
@@ -231,10 +221,9 @@
             rjButton1.FlatStyle = FlatStyle.Flat;
             rjButton1.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             rjButton1.ForeColor = SystemColors.ControlText;
-            rjButton1.Location = new Point(817, 17);
-            rjButton1.Margin = new Padding(6);
+            rjButton1.Location = new Point(440, 8);
             rjButton1.Name = "rjButton1";
-            rjButton1.Size = new Size(189, 85);
+            rjButton1.Size = new Size(102, 40);
             rjButton1.TabIndex = 1;
             rjButton1.Text = "Apri";
             rjButton1.TextColor = SystemColors.ControlText;
@@ -246,10 +235,9 @@
             actionPanel.BorderColor = Color.White;
             actionPanel.Controls.Add(label3);
             actionPanel.Edge = 20;
-            actionPanel.Location = new Point(635, 143);
-            actionPanel.Margin = new Padding(6);
+            actionPanel.Location = new Point(342, 67);
             actionPanel.Name = "actionPanel";
-            actionPanel.Size = new Size(817, 1054);
+            actionPanel.Size = new Size(440, 494);
             actionPanel.TabIndex = 2;
             // 
             // label3
@@ -258,24 +246,22 @@
             label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.FromArgb(44, 62, 80);
             label3.Location = new Point(0, 0);
-            label3.Margin = new Padding(6, 0, 6, 0);
             label3.Name = "label3";
-            label3.Size = new Size(817, 1054);
+            label3.Size = new Size(440, 494);
             label3.TabIndex = 0;
             label3.Text = "Seleziona un'operazione da eseguire\r\no un contatto da visualizzare o modificare";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // homeForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(246, 241, 241);
-            ClientSize = new Size(1462, 1205);
+            ClientSize = new Size(778, 564);
             Controls.Add(actionPanel);
             Controls.Add(roundedPanel2);
             Controls.Add(roundedPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Margin = new Padding(6);
             MaximizeBox = false;
             Name = "homeForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -303,6 +289,6 @@
         private CustomControls.RJControls.RJButton aggiungiButton;
         private CustomControls.RJControls.RJButton grigliaButton;
         private Label label3;
-        public ListBox listBox1;
+        public ListBox listacontatti;
     }
 }
